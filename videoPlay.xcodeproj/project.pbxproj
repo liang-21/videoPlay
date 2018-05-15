@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		415FE757723FF41A9AAEEAAD /* libPods-videoPlay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA32765E192FC018B1213DD /* libPods-videoPlay.a */; };
+		FF114163209C53020009A300 /* LSWTextInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF114162209C53020009A300 /* LSWTextInputViewController.m */; };
+		FF114166209C581A0009A300 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = FF114165209C581A0009A300 /* UITextView+Placeholder.m */; };
+		FF114169209C59950009A300 /* UIViewController+AlertMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = FF114168209C59950009A300 /* UIViewController+AlertMessage.m */; };
+		FF11416C209C5D400009A300 /* UIColor+tdf_standard.m in Sources */ = {isa = PBXBuildFile; fileRef = FF11416B209C5D400009A300 /* UIColor+tdf_standard.m */; };
+		FF20B8E7207EE5EA00108FFF /* SelPlaybackControls.m in Sources */ = {isa = PBXBuildFile; fileRef = FF20B8DC207EE5EA00108FFF /* SelPlaybackControls.m */; };
+		FF20B8E8207EE5EA00108FFF /* SelVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF20B8DD207EE5EA00108FFF /* SelVideoPlayer.m */; };
+		FF20B8E9207EE5EA00108FFF /* UIViewController+PlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FF20B8E1207EE5EA00108FFF /* UIViewController+PlayerRotation.m */; };
+		FF20B8EA207EE5EA00108FFF /* SelPlayerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = FF20B8E4207EE5EA00108FFF /* SelPlayerConfiguration.m */; };
+		FF20B8EB207EE5EA00108FFF /* SelVideoSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = FF20B8E6207EE5EA00108FFF /* SelVideoSlider.m */; };
+		FF25A14320A2DE65004FC613 /* LSWTopImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF25A14220A2DE65004FC613 /* LSWTopImageCell.m */; };
+		FF25A14620A2FAEA004FC613 /* LSWvideoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF25A14520A2FAEA004FC613 /* LSWvideoListCell.m */; };
+		FF25A14920A2FDC1004FC613 /* LSWvideoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF25A14820A2FDC1004FC613 /* LSWvideoListViewController.m */; };
+		FF312989207A5F64003C6AE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF312988207A5F64003C6AE5 /* AppDelegate.m */; };
+		FF31298C207A5F64003C6AE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31298B207A5F64003C6AE5 /* ViewController.m */; };
+		FF31298F207A5F64003C6AE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF31298D207A5F64003C6AE5 /* Main.storyboard */; };
+		FF312991207A5F64003C6AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF312990207A5F64003C6AE5 /* Assets.xcassets */; };
+		FF312994207A5F64003C6AE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF312992207A5F64003C6AE5 /* LaunchScreen.storyboard */; };
+		FF312997207A5F64003C6AE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF312996207A5F64003C6AE5 /* main.m */; };
+		FF36E85220A1C05800519E05 /* LSWCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF36E85120A1C05800519E05 /* LSWCommentModel.m */; };
+		FF43C4B82099D5D600008829 /* LSWVideoCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF43C4B72099D5D600008829 /* LSWVideoCommentCell.m */; };
+		FF43C4BB209A0C8100008829 /* LSWCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF43C4BA209A0C8100008829 /* LSWCommentCell.m */; };
+		FF583FEE208C5F2E00568161 /* LSWPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF583FEC208C5F2E00568161 /* LSWPublishViewController.m */; };
+		FF583FF4208C603400568161 /* SelVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF583FF2208C603400568161 /* SelVideoViewController.m */; };
+		FF583FF5208C603400568161 /* SelMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF583FF3208C603400568161 /* SelMainViewController.m */; };
+		FF5BBE17207B4C6500891E37 /* LSWVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5BBE16207B4C6500891E37 /* LSWVideoViewController.m */; };
+		FF5BBE1D207B4C9400891E37 /* LSWRankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5BBE1C207B4C9400891E37 /* LSWRankViewController.m */; };
+		FF5BBE20207B4D0700891E37 /* LSWPersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5BBE1F207B4D0700891E37 /* LSWPersonalViewController.m */; };
+		FF5BBE23207B540A00891E37 /* LSWVideoNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5BBE22207B540A00891E37 /* LSWVideoNextViewController.m */; };
+		FF5BBE27207B719100891E37 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5BBE26207B719100891E37 /* UIColor+Hex.m */; };
+		FF5BBE2A207CA8F200891E37 /* LSWVideoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5BBE29207CA8F200891E37 /* LSWVideoCollectionViewCell.m */; };
+		FF77DAE2209EEB1A007AFA87 /* cbsNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = FF77DAE1209EEB1A007AFA87 /* cbsNetWork.m */; };
+		FFDEFE12209959B700670614 /* LSWPublishCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDEFE11209959B700670614 /* LSWPublishCell.m */; };
+		FFF20171209FEC1300556263 /* LSWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF20170209FEC1300556263 /* LSWLoginViewController.m */; };
+		FFF20174209FEC9F00556263 /* LSWtextFieldBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF20173209FEC9F00556263 /* LSWtextFieldBackground.m */; };
+		FFF20177209FED3000556263 /* LSWLoginInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF20176209FED3000556263 /* LSWLoginInfoModel.m */; };
+		FFF2017A209FEE8700556263 /* LSWRigistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF20179209FEE8700556263 /* LSWRigistViewController.m */; };
+		FFF2017E20A02E4900556263 /* AnimationTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF2017C20A02E4800556263 /* AnimationTextField.m */; };
+		FFF2018120A07DBA00556263 /* LSWRigistTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF2018020A07DBA00556263 /* LSWRigistTextView.m */; };
+		FFF2018820A095BC00556263 /* LSWVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF2018720A095BC00556263 /* LSWVideoModel.m */; };
+		FFF2018B20A095F000556263 /* LSWtbVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF2018A20A095F000556263 /* LSWtbVideoModel.m */; };
+		FFF2018E20A0972800556263 /* LSWtbUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF2018D20A0972800556263 /* LSWtbUserModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41BD9E68E9C6FFE2FA87A736 /* Pods-videoPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-videoPlay.release.xcconfig"; path = "Pods/Target Support Files/Pods-videoPlay/Pods-videoPlay.release.xcconfig"; sourceTree = "<group>"; };
+		9219BDC14E3AD90779B8B8FC /* Pods-videoPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-videoPlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-videoPlay/Pods-videoPlay.debug.xcconfig"; sourceTree = "<group>"; };
+		BEA32765E192FC018B1213DD /* libPods-videoPlay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-videoPlay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF114161209C53020009A300 /* LSWTextInputViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWTextInputViewController.h; sourceTree = "<group>"; };
+		FF114162209C53020009A300 /* LSWTextInputViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWTextInputViewController.m; sourceTree = "<group>"; };
+		FF114164209C581A0009A300 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		FF114165209C581A0009A300 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		FF114167209C59950009A300 /* UIViewController+AlertMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AlertMessage.h"; sourceTree = "<group>"; };
+		FF114168209C59950009A300 /* UIViewController+AlertMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AlertMessage.m"; sourceTree = "<group>"; };
+		FF11416A209C5D400009A300 /* UIColor+tdf_standard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+tdf_standard.h"; sourceTree = "<group>"; };
+		FF11416B209C5D400009A300 /* UIColor+tdf_standard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+tdf_standard.m"; sourceTree = "<group>"; };
+		FF20B8DC207EE5EA00108FFF /* SelPlaybackControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelPlaybackControls.m; sourceTree = "<group>"; };
+		FF20B8DD207EE5EA00108FFF /* SelVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelVideoPlayer.m; sourceTree = "<group>"; };
+		FF20B8DE207EE5EA00108FFF /* SelVideoSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelVideoSlider.h; sourceTree = "<group>"; };
+		FF20B8DF207EE5EA00108FFF /* SelPlaybackControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelPlaybackControls.h; sourceTree = "<group>"; };
+		FF20B8E1207EE5EA00108FFF /* UIViewController+PlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PlayerRotation.m"; sourceTree = "<group>"; };
+		FF20B8E2207EE5EA00108FFF /* SelPlayerConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelPlayerConfiguration.h; sourceTree = "<group>"; };
+		FF20B8E3207EE5EA00108FFF /* UIViewController+PlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PlayerRotation.h"; sourceTree = "<group>"; };
+		FF20B8E4207EE5EA00108FFF /* SelPlayerConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelPlayerConfiguration.m; sourceTree = "<group>"; };
+		FF20B8E5207EE5EA00108FFF /* SelVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelVideoPlayer.h; sourceTree = "<group>"; };
+		FF20B8E6207EE5EA00108FFF /* SelVideoSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelVideoSlider.m; sourceTree = "<group>"; };
+		FF25A14120A2DE65004FC613 /* LSWTopImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWTopImageCell.h; sourceTree = "<group>"; };
+		FF25A14220A2DE65004FC613 /* LSWTopImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWTopImageCell.m; sourceTree = "<group>"; };
+		FF25A14420A2FAEA004FC613 /* LSWvideoListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWvideoListCell.h; sourceTree = "<group>"; };
+		FF25A14520A2FAEA004FC613 /* LSWvideoListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWvideoListCell.m; sourceTree = "<group>"; };
+		FF25A14720A2FDC1004FC613 /* LSWvideoListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWvideoListViewController.h; sourceTree = "<group>"; };
+		FF25A14820A2FDC1004FC613 /* LSWvideoListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWvideoListViewController.m; sourceTree = "<group>"; };
+		FF312984207A5F64003C6AE5 /* videoPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videoPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF312987207A5F64003C6AE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF312988207A5F64003C6AE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF31298A207A5F64003C6AE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF31298B207A5F64003C6AE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF31298E207A5F64003C6AE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF312990207A5F64003C6AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF312993207A5F64003C6AE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF312995207A5F64003C6AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF312996207A5F64003C6AE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF36E85020A1C05800519E05 /* LSWCommentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWCommentModel.h; sourceTree = "<group>"; };
+		FF36E85120A1C05800519E05 /* LSWCommentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWCommentModel.m; sourceTree = "<group>"; };
+		FF43C4B62099D5D600008829 /* LSWVideoCommentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWVideoCommentCell.h; sourceTree = "<group>"; };
+		FF43C4B72099D5D600008829 /* LSWVideoCommentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWVideoCommentCell.m; sourceTree = "<group>"; };
+		FF43C4B9209A0C8100008829 /* LSWCommentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWCommentCell.h; sourceTree = "<group>"; };
+		FF43C4BA209A0C8100008829 /* LSWCommentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWCommentCell.m; sourceTree = "<group>"; };
+		FF583FEC208C5F2E00568161 /* LSWPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSWPublishViewController.m; sourceTree = "<group>"; };
+		FF583FED208C5F2E00568161 /* LSWPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSWPublishViewController.h; sourceTree = "<group>"; };
+		FF583FF0208C603400568161 /* SelVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelVideoViewController.h; sourceTree = "<group>"; };
+		FF583FF1208C603400568161 /* SelMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelMainViewController.h; sourceTree = "<group>"; };
+		FF583FF2208C603400568161 /* SelVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelVideoViewController.m; sourceTree = "<group>"; };
+		FF583FF3208C603400568161 /* SelMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelMainViewController.m; sourceTree = "<group>"; };
+		FF5BBE15207B4C6500891E37 /* LSWVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWVideoViewController.h; sourceTree = "<group>"; };
+		FF5BBE16207B4C6500891E37 /* LSWVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWVideoViewController.m; sourceTree = "<group>"; };
+		FF5BBE1B207B4C9400891E37 /* LSWRankViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWRankViewController.h; sourceTree = "<group>"; };
+		FF5BBE1C207B4C9400891E37 /* LSWRankViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWRankViewController.m; sourceTree = "<group>"; };
+		FF5BBE1E207B4D0700891E37 /* LSWPersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWPersonalViewController.h; sourceTree = "<group>"; };
+		FF5BBE1F207B4D0700891E37 /* LSWPersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWPersonalViewController.m; sourceTree = "<group>"; };
+		FF5BBE21207B540A00891E37 /* LSWVideoNextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWVideoNextViewController.h; sourceTree = "<group>"; };
+		FF5BBE22207B540A00891E37 /* LSWVideoNextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWVideoNextViewController.m; sourceTree = "<group>"; };
+		FF5BBE25207B719100891E37 /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		FF5BBE26207B719100891E37 /* UIColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		FF5BBE28207CA8F200891E37 /* LSWVideoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWVideoCollectionViewCell.h; sourceTree = "<group>"; };
+		FF5BBE29207CA8F200891E37 /* LSWVideoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWVideoCollectionViewCell.m; sourceTree = "<group>"; };
+		FF77DAE0209EEB1A007AFA87 /* cbsNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cbsNetWork.h; sourceTree = "<group>"; };
+		FF77DAE1209EEB1A007AFA87 /* cbsNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cbsNetWork.m; sourceTree = "<group>"; };
+		FFDEFE10209959B700670614 /* LSWPublishCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWPublishCell.h; sourceTree = "<group>"; };
+		FFDEFE11209959B700670614 /* LSWPublishCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWPublishCell.m; sourceTree = "<group>"; };
+		FFF2016F209FEC1300556263 /* LSWLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWLoginViewController.h; sourceTree = "<group>"; };
+		FFF20170209FEC1300556263 /* LSWLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWLoginViewController.m; sourceTree = "<group>"; };
+		FFF20172209FEC9F00556263 /* LSWtextFieldBackground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWtextFieldBackground.h; sourceTree = "<group>"; };
+		FFF20173209FEC9F00556263 /* LSWtextFieldBackground.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWtextFieldBackground.m; sourceTree = "<group>"; };
+		FFF20175209FED3000556263 /* LSWLoginInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWLoginInfoModel.h; sourceTree = "<group>"; };
+		FFF20176209FED3000556263 /* LSWLoginInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWLoginInfoModel.m; sourceTree = "<group>"; };
+		FFF20178209FEE8700556263 /* LSWRigistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWRigistViewController.h; sourceTree = "<group>"; };
+		FFF20179209FEE8700556263 /* LSWRigistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWRigistViewController.m; sourceTree = "<group>"; };
+		FFF2017C20A02E4800556263 /* AnimationTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTextField.m; sourceTree = "<group>"; };
+		FFF2017D20A02E4800556263 /* AnimationTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTextField.h; sourceTree = "<group>"; };
+		FFF2017F20A07DBA00556263 /* LSWRigistTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWRigistTextView.h; sourceTree = "<group>"; };
+		FFF2018020A07DBA00556263 /* LSWRigistTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWRigistTextView.m; sourceTree = "<group>"; };
+		FFF2018620A095BC00556263 /* LSWVideoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWVideoModel.h; sourceTree = "<group>"; };
+		FFF2018720A095BC00556263 /* LSWVideoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWVideoModel.m; sourceTree = "<group>"; };
+		FFF2018920A095F000556263 /* LSWtbVideoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWtbVideoModel.h; sourceTree = "<group>"; };
+		FFF2018A20A095F000556263 /* LSWtbVideoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWtbVideoModel.m; sourceTree = "<group>"; };
+		FFF2018C20A0972800556263 /* LSWtbUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWtbUserModel.h; sourceTree = "<group>"; };
+		FFF2018D20A0972800556263 /* LSWtbUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWtbUserModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF312981207A5F64003C6AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415FE757723FF41A9AAEEAAD /* libPods-videoPlay.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043D1B91B53189506AA2B96E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9219BDC14E3AD90779B8B8FC /* Pods-videoPlay.debug.xcconfig */,
+				41BD9E68E9C6FFE2FA87A736 /* Pods-videoPlay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9F76E725EC2444F400D3911 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEA32765E192FC018B1213DD /* libPods-videoPlay.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF20B8DB207EE5EA00108FFF /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				FF583FEF208C603400568161 /* ViewController */,
+				FF20B8DC207EE5EA00108FFF /* SelPlaybackControls.m */,
+				FF20B8DD207EE5EA00108FFF /* SelVideoPlayer.m */,
+				FF20B8DE207EE5EA00108FFF /* SelVideoSlider.h */,
+				FF20B8DF207EE5EA00108FFF /* SelPlaybackControls.h */,
+				FF20B8E0207EE5EA00108FFF /* Configs */,
+				FF20B8E5207EE5EA00108FFF /* SelVideoPlayer.h */,
+				FF20B8E6207EE5EA00108FFF /* SelVideoSlider.m */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		FF20B8E0207EE5EA00108FFF /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				FF20B8E1207EE5EA00108FFF /* UIViewController+PlayerRotation.m */,
+				FF20B8E2207EE5EA00108FFF /* SelPlayerConfiguration.h */,
+				FF20B8E3207EE5EA00108FFF /* UIViewController+PlayerRotation.h */,
+				FF20B8E4207EE5EA00108FFF /* SelPlayerConfiguration.m */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		FF25A14020A2DDA9004FC613 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FF25A14120A2DE65004FC613 /* LSWTopImageCell.h */,
+				FF25A14220A2DE65004FC613 /* LSWTopImageCell.m */,
+				FF25A14420A2FAEA004FC613 /* LSWvideoListCell.h */,
+				FF25A14520A2FAEA004FC613 /* LSWvideoListCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FF31297B207A5F64003C6AE5 = {
+			isa = PBXGroup;
+			children = (
+				FF77DAE0209EEB1A007AFA87 /* cbsNetWork.h */,
+				FF77DAE1209EEB1A007AFA87 /* cbsNetWork.m */,
+				FF312986207A5F64003C6AE5 /* videoPlay */,
+				FF312985207A5F64003C6AE5 /* Products */,
+				043D1B91B53189506AA2B96E /* Pods */,
+				E9F76E725EC2444F400D3911 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF312985207A5F64003C6AE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF312984207A5F64003C6AE5 /* videoPlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF312986207A5F64003C6AE5 /* videoPlay */ = {
+			isa = PBXGroup;
+			children = (
+				FFF2017B20A02E4800556263 /* AnimationUpField */,
+				FFF2016D209FEBDF00556263 /* login */,
+				FF5BBE24207B715100891E37 /* category */,
+				FF5BBE0B207B428700891E37 /* personal */,
+				FF5BBE0A207B427500891E37 /* ranking */,
+				FF5BBE09207B424600891E37 /* publish */,
+				FFC62D12207B3B0200F9A90B /* video */,
+				FF312987207A5F64003C6AE5 /* AppDelegate.h */,
+				FF312988207A5F64003C6AE5 /* AppDelegate.m */,
+				FF31298A207A5F64003C6AE5 /* ViewController.h */,
+				FF31298B207A5F64003C6AE5 /* ViewController.m */,
+				FF31298D207A5F64003C6AE5 /* Main.storyboard */,
+				FF312990207A5F64003C6AE5 /* Assets.xcassets */,
+				FF312992207A5F64003C6AE5 /* LaunchScreen.storyboard */,
+				FF312995207A5F64003C6AE5 /* Info.plist */,
+				FF312996207A5F64003C6AE5 /* main.m */,
+			);
+			path = videoPlay;
+			sourceTree = "<group>";
+		};
+		FF583FEF208C603400568161 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF583FF0208C603400568161 /* SelVideoViewController.h */,
+				FF583FF1208C603400568161 /* SelMainViewController.h */,
+				FF583FF2208C603400568161 /* SelVideoViewController.m */,
+				FF583FF3208C603400568161 /* SelMainViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FF5BBE09207B424600891E37 /* publish */ = {
+			isa = PBXGroup;
+			children = (
+				FFDEFE0F2099597C00670614 /* view */,
+				FF5BBE12207B4C3600891E37 /* controller */,
+			);
+			path = publish;
+			sourceTree = "<group>";
+		};
+		FF5BBE0A207B427500891E37 /* ranking */ = {
+			isa = PBXGroup;
+			children = (
+				FF5BBE13207B4C4100891E37 /* controller */,
+			);
+			name = ranking;
+			sourceTree = "<group>";
+		};
+		FF5BBE0B207B428700891E37 /* personal */ = {
+			isa = PBXGroup;
+			children = (
+				FF25A14020A2DDA9004FC613 /* view */,
+				FF5BBE14207B4C4B00891E37 /* controller */,
+			);
+			path = personal;
+			sourceTree = "<group>";
+		};
+		FF5BBE0F207B4A3000891E37 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF5BBE15207B4C6500891E37 /* LSWVideoViewController.h */,
+				FF5BBE16207B4C6500891E37 /* LSWVideoViewController.m */,
+				FF5BBE21207B540A00891E37 /* LSWVideoNextViewController.h */,
+				FF5BBE22207B540A00891E37 /* LSWVideoNextViewController.m */,
+				FF114161209C53020009A300 /* LSWTextInputViewController.h */,
+				FF114162209C53020009A300 /* LSWTextInputViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		FF5BBE11207B4A7E00891E37 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FF5BBE28207CA8F200891E37 /* LSWVideoCollectionViewCell.h */,
+				FF5BBE29207CA8F200891E37 /* LSWVideoCollectionViewCell.m */,
+				FF43C4B62099D5D600008829 /* LSWVideoCommentCell.h */,
+				FF43C4B72099D5D600008829 /* LSWVideoCommentCell.m */,
+				FF43C4B9209A0C8100008829 /* LSWCommentCell.h */,
+				FF43C4BA209A0C8100008829 /* LSWCommentCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FF5BBE12207B4C3600891E37 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF583FED208C5F2E00568161 /* LSWPublishViewController.h */,
+				FF583FEC208C5F2E00568161 /* LSWPublishViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		FF5BBE13207B4C4100891E37 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF5BBE1B207B4C9400891E37 /* LSWRankViewController.h */,
+				FF5BBE1C207B4C9400891E37 /* LSWRankViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		FF5BBE14207B4C4B00891E37 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF5BBE1E207B4D0700891E37 /* LSWPersonalViewController.h */,
+				FF5BBE1F207B4D0700891E37 /* LSWPersonalViewController.m */,
+				FF25A14720A2FDC1004FC613 /* LSWvideoListViewController.h */,
+				FF25A14820A2FDC1004FC613 /* LSWvideoListViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		FF5BBE24207B715100891E37 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				FF5BBE25207B719100891E37 /* UIColor+Hex.h */,
+				FF5BBE26207B719100891E37 /* UIColor+Hex.m */,
+				FF114164209C581A0009A300 /* UITextView+Placeholder.h */,
+				FF114165209C581A0009A300 /* UITextView+Placeholder.m */,
+				FF114167209C59950009A300 /* UIViewController+AlertMessage.h */,
+				FF114168209C59950009A300 /* UIViewController+AlertMessage.m */,
+				FF11416A209C5D400009A300 /* UIColor+tdf_standard.h */,
+				FF11416B209C5D400009A300 /* UIColor+tdf_standard.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		FFC62D12207B3B0200F9A90B /* video */ = {
+			isa = PBXGroup;
+			children = (
+				FFF2018520A0959F00556263 /* model */,
+				FF20B8DB207EE5EA00108FFF /* VideoPlayer */,
+				FF5BBE11207B4A7E00891E37 /* view */,
+				FF5BBE0F207B4A3000891E37 /* controller */,
+			);
+			path = video;
+			sourceTree = "<group>";
+		};
+		FFDEFE0F2099597C00670614 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FFDEFE10209959B700670614 /* LSWPublishCell.h */,
+				FFDEFE11209959B700670614 /* LSWPublishCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FFF2016D209FEBDF00556263 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				FFF2016E209FEBEF00556263 /* controller */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		FFF2016E209FEBEF00556263 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FFF2016F209FEC1300556263 /* LSWLoginViewController.h */,
+				FFF20170209FEC1300556263 /* LSWLoginViewController.m */,
+				FFF20178209FEE8700556263 /* LSWRigistViewController.h */,
+				FFF20179209FEE8700556263 /* LSWRigistViewController.m */,
+				FFF20172209FEC9F00556263 /* LSWtextFieldBackground.h */,
+				FFF20173209FEC9F00556263 /* LSWtextFieldBackground.m */,
+				FFF20175209FED3000556263 /* LSWLoginInfoModel.h */,
+				FFF20176209FED3000556263 /* LSWLoginInfoModel.m */,
+				FFF2017F20A07DBA00556263 /* LSWRigistTextView.h */,
+				FFF2018020A07DBA00556263 /* LSWRigistTextView.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		FFF2017B20A02E4800556263 /* AnimationUpField */ = {
+			isa = PBXGroup;
+			children = (
+				FFF2017C20A02E4800556263 /* AnimationTextField.m */,
+				FFF2017D20A02E4800556263 /* AnimationTextField.h */,
+			);
+			path = AnimationUpField;
+			sourceTree = "<group>";
+		};
+		FFF2018520A0959F00556263 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FFF2018620A095BC00556263 /* LSWVideoModel.h */,
+				FFF2018720A095BC00556263 /* LSWVideoModel.m */,
+				FFF2018920A095F000556263 /* LSWtbVideoModel.h */,
+				FFF2018A20A095F000556263 /* LSWtbVideoModel.m */,
+				FFF2018C20A0972800556263 /* LSWtbUserModel.h */,
+				FFF2018D20A0972800556263 /* LSWtbUserModel.m */,
+				FF36E85020A1C05800519E05 /* LSWCommentModel.h */,
+				FF36E85120A1C05800519E05 /* LSWCommentModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF312983207A5F64003C6AE5 /* videoPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF31299A207A5F64003C6AE5 /* Build configuration list for PBXNativeTarget "videoPlay" */;
+			buildPhases = (
+				0353B776D0037345FFD9D328 /* [CP] Check Pods Manifest.lock */,
+				FF312980207A5F64003C6AE5 /* Sources */,
+				FF312981207A5F64003C6AE5 /* Frameworks */,
+				FF312982207A5F64003C6AE5 /* Resources */,
+				63FF92AB799748B3645381E6 /* [CP] Embed Pods Frameworks */,
+				9C999D6122F7549E9AD0DB5A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = videoPlay;
+			productName = videoPlay;
+			productReference = FF312984207A5F64003C6AE5 /* videoPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF31297C207A5F64003C6AE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "梁世伟";
+				TargetAttributes = {
+					FF312983207A5F64003C6AE5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF31297F207A5F64003C6AE5 /* Build configuration list for PBXProject "videoPlay" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF31297B207A5F64003C6AE5;
+			productRefGroup = FF312985207A5F64003C6AE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF312983207A5F64003C6AE5 /* videoPlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF312982207A5F64003C6AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF312994207A5F64003C6AE5 /* LaunchScreen.storyboard in Resources */,
+				FF312991207A5F64003C6AE5 /* Assets.xcassets in Resources */,
+				FF31298F207A5F64003C6AE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0353B776D0037345FFD9D328 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		63FF92AB799748B3645381E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-videoPlay/Pods-videoPlay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C999D6122F7549E9AD0DB5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-videoPlay/Pods-videoPlay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF312980207A5F64003C6AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF31298C207A5F64003C6AE5 /* ViewController.m in Sources */,
+				FF5BBE1D207B4C9400891E37 /* LSWRankViewController.m in Sources */,
+				FF5BBE23207B540A00891E37 /* LSWVideoNextViewController.m in Sources */,
+				FF114166209C581A0009A300 /* UITextView+Placeholder.m in Sources */,
+				FF114163209C53020009A300 /* LSWTextInputViewController.m in Sources */,
+				FFF2017A209FEE8700556263 /* LSWRigistViewController.m in Sources */,
+				FF583FF4208C603400568161 /* SelVideoViewController.m in Sources */,
+				FF312997207A5F64003C6AE5 /* main.m in Sources */,
+				FF5BBE27207B719100891E37 /* UIColor+Hex.m in Sources */,
+				FF43C4BB209A0C8100008829 /* LSWCommentCell.m in Sources */,
+				FFF2018B20A095F000556263 /* LSWtbVideoModel.m in Sources */,
+				FFF20174209FEC9F00556263 /* LSWtextFieldBackground.m in Sources */,
+				FF20B8E7207EE5EA00108FFF /* SelPlaybackControls.m in Sources */,
+				FFF20177209FED3000556263 /* LSWLoginInfoModel.m in Sources */,
+				FFDEFE12209959B700670614 /* LSWPublishCell.m in Sources */,
+				FF312989207A5F64003C6AE5 /* AppDelegate.m in Sources */,
+				FFF20171209FEC1300556263 /* LSWLoginViewController.m in Sources */,
+				FFF2018820A095BC00556263 /* LSWVideoModel.m in Sources */,
+				FF11416C209C5D400009A300 /* UIColor+tdf_standard.m in Sources */,
+				FF20B8EB207EE5EA00108FFF /* SelVideoSlider.m in Sources */,
+				FF25A14320A2DE65004FC613 /* LSWTopImageCell.m in Sources */,
+				FF20B8E9207EE5EA00108FFF /* UIViewController+PlayerRotation.m in Sources */,
+				FF36E85220A1C05800519E05 /* LSWCommentModel.m in Sources */,
+				FFF2017E20A02E4900556263 /* AnimationTextField.m in Sources */,
+				FF43C4B82099D5D600008829 /* LSWVideoCommentCell.m in Sources */,
+				FF25A14920A2FDC1004FC613 /* LSWvideoListViewController.m in Sources */,
+				FFF2018120A07DBA00556263 /* LSWRigistTextView.m in Sources */,
+				FF5BBE2A207CA8F200891E37 /* LSWVideoCollectionViewCell.m in Sources */,
+				FF583FEE208C5F2E00568161 /* LSWPublishViewController.m in Sources */,
+				FF114169209C59950009A300 /* UIViewController+AlertMessage.m in Sources */,
+				FF5BBE20207B4D0700891E37 /* LSWPersonalViewController.m in Sources */,
+				FF583FF5208C603400568161 /* SelMainViewController.m in Sources */,
+				FF20B8E8207EE5EA00108FFF /* SelVideoPlayer.m in Sources */,
+				FF20B8EA207EE5EA00108FFF /* SelPlayerConfiguration.m in Sources */,
+				FFF2018E20A0972800556263 /* LSWtbUserModel.m in Sources */,
+				FF5BBE17207B4C6500891E37 /* LSWVideoViewController.m in Sources */,
+				FF25A14620A2FAEA004FC613 /* LSWvideoListCell.m in Sources */,
+				FF77DAE2209EEB1A007AFA87 /* cbsNetWork.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF31298D207A5F64003C6AE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF31298E207A5F64003C6AE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF312992207A5F64003C6AE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF312993207A5F64003C6AE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF312998207A5F64003C6AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF312999207A5F64003C6AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF31299B207A5F64003C6AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9219BDC14E3AD90779B8B8FC /* Pods-videoPlay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WP4638TD4V;
+				INFOPLIST_FILE = videoPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eduzust.videoPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF31299C207A5F64003C6AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41BD9E68E9C6FFE2FA87A736 /* Pods-videoPlay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WP4638TD4V;
+				INFOPLIST_FILE = videoPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eduzust.videoPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF31297F207A5F64003C6AE5 /* Build configuration list for PBXProject "videoPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF312998207A5F64003C6AE5 /* Debug */,
+				FF312999207A5F64003C6AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF31299A207A5F64003C6AE5 /* Build configuration list for PBXNativeTarget "videoPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF31299B207A5F64003C6AE5 /* Debug */,
+				FF31299C207A5F64003C6AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF31297C207A5F64003C6AE5 /* Project object */;
+}
